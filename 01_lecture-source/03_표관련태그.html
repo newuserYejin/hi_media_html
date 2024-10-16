@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <th>첫번째</th>
+        <th>두번쨰</th>
+        <th>세번쨰</th>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td>호</td>
+            <td>호호</td>
+            <td>호호호</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <!--
+            colspan : 열합치기
+            rowspan : 행합치기
+        -->
+
+        <caption>회원 정보 리스트</caption>
+
+        <tr>
+            <th colspan="2" rowspan="2" width="130px" height="150px">사진</th>
+            <th width="80px">이름</th>
+            <th width="200px"></th>
+        </tr>
+
+        <tr>
+            <td>연락처</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td wid th="70px" height="50px">주소</td>
+            <td colspan="3"></td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h3>테이블 구조 설정하기</h3>
+
+    <table border="1">
+        <caption>내맘대로 만들기</caption>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>주소</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>후이바오</td>
+                <td>1</td>
+                <td>에버랜드</td>
+            </tr>
+            <tr>
+                <td>푸바오</td>
+                <td>4</td>
+                <td>에버랜드</td>
+            </tr>
+            <tr>
+                <td>루이바오</td>
+                <td>1</td>
+                <td>에버랜드</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>총 바오:</td>
+                <td colspan="2">3</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
